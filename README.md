@@ -8,7 +8,7 @@ Easily search and view lyrics of your favorite songs with our Song Lyrics Search
 - 🔍 Search lyrics by song title, artist, or keywords  
 - 🎼 Display accurate and synchronized lyrics  
 - ⚡ Fast, user-friendly interface  
-- 📱 Mobile-responsive design  
+  
 
 ## 🛠️ Tech Stack
 
@@ -18,7 +18,7 @@ Easily search and view lyrics of your favorite songs with our Song Lyrics Search
 
 
 
-## PROJECT PRIVEW:
+## 🎞️ —PROJECT PRIVEW:
 ### 1. HOMEPAGE
 ![image](https://github.com/user-attachments/assets/69e82947-fa04-47cb-9889-e07a7312961b)
 ### 2. SEARCHING PAGE 

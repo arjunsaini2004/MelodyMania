@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.nav-links {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-links li {
+    margin: 0 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14pt;
+    cursor: pointer;
+    
+}
+
+.nav-links li a {
+    color:rgb(231,231,220); /* Yellow */
+    text-decoration: none;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.nav-links li a:hover {
+    color: #fff;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    filter: invert(1);
+    margin-left: 10px;
+}
+.container{
+    width: 100%;
+    height: 60vh;
+    /* background-color:rgba(0, 0,0, 0.4); */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    text-align: center ;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Aladin", system-ui;
+    color: white;
+    font-style: normal;
+}
+.content h2{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    /* color: rgb(231, 231, 220); */
+    color: #a29595;
+    margin: 50px;
+
+    
+}
+
+    
+.content a{ 
+    font-size: 23px;
+    color: aliceblue;
+    text-decoration: none ;
+    border: 2px solid #ffa;
+    padding:  15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+
+}
+.content a:hover{
+    background-color: #ffa;
+    color: #000;
+
+
+}
+.searchbar form{
+    position: relative;
+    display: flex;
+    width: 900px;
+    height: 70px;
+    margin: 20px auto;
+    
+}
+.searchbar input{
+    width: 100%;
+    max-width: 100%;
+    height: 70px;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    outline:none;
+   
+}
+.searchbar button{
+    font-family: Impact, Charcoal, sans-serif;
+    width: 200px;
+    max-width: 100%;
+    /* background: linear-gradient(to right, aqua, black); */
+    background-color:rgba(0, 0,0, 0.4);
+    color: black;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    top: 2px;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+}
+button:hover{
+    transform: scale(0.96);
+}
+  
+.background-clip{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+.heading h1{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    color: rgb(231, 231, 220);
+    margin: 50px;
+    text-align: center;
+
+}
+.song-list {
+    list-style: none;
+    padding: 50px;
+    display:block;
+    margin-left: 200px;
+    
+    /* text-align: center;
+     */
+     /* border: 2px solid red; */
+  }
+  
+  .song-list li {
+    margin-bottom: 20px;
+    /* text-align: center;
+    align-items: center; */
+    padding-left: 50px;
+    /* border: 2px solid red; */
+    
+  }
+  
+  .song-list li div {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .song-list li div strong{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+  }
+  .song-list li div button{
+    width: 100px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(231, 231, 220);;
+    
+
+  }
+  .song-list li div img {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    margin-left: 50px;
+    align-items: center;
+  }
+  
+  /* .full-lyrics {
+    margin-top: 20px;
+  }
+  
+  .full-lyrics h2 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .full-lyrics p {
+    white-space: pre-line;
+  } */
+  
+ @media (min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+} 

@@ -12,8 +12,7 @@ Easily search and view lyrics of your favorite songs with our Song Lyrics Search
 
 ## 🛠️ Tech Stack
 
-- Frontend: HTML, CSS, JavaScript  
-- Backend: Node.js / Express (or any preferred backend)  
+- Frontend: HTML, CSS, JavaScript    
 - Lyrics API: Musixmatch / Genius API (or any lyrics API)
 
 
